@@ -1,0 +1,74 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1514454529242-9e4677563e7b?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: round ;
+    color: rgb(255, 255, 255);
+}
+
+.container-first {
+    opacity: 0.8;
+}
+
+.container-secund {
+    background-color: rgb(52, 52, 52);
+    padding: 25px;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+
+.container-tri {
+    display: flex;
+    gap: 10px
+}
+
+.container-tri input[type="text"] {
+    border-radius: 10px;
+    border: none;
+    width: 800px;
+    text-align: center;
+}
+
+.container-tri button {
+    background-color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    width: auto;
+    border-radius: 50px;
+    padding: 3px;
+    border: none;
+}
+
+.container-tri button:hover {
+    opacity: 0.6;
+}
+
+
+.container-first h1, p {
+    margin-top: 20px;
+    font-style: black;
+}
+
+
+.tempo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 45px;
+}
+
+.tempo p {
+    margin-bottom: 8px;
+}
+
+.umidade {
+    padding-top: 30px;
+}
